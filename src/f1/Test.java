@@ -1,6 +1,6 @@
-import java.util.*;
-import java.util.zip.Adler32;
+package f1;
 
+import java.util.*;
 
 
 public class Test {
