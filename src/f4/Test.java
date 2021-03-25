@@ -10,7 +10,7 @@ public class Test {
 
         Future<String> task = executorService.submit(() -> "First");
         executorService.shutdown();
-
+        System.out.println(task.get());
         if (task.isDone() && !task.isCancelled()) {
             System.out.println("Future result: " + task.get());
         }
