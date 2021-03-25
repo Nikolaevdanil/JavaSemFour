@@ -1,4 +1,4 @@
-package f6;
+package f6.Builder;
 
 class StudentReceiver {
 
@@ -7,7 +7,6 @@ class StudentReceiver {
     private volatile Student student;
 
     public StudentReceiver() {
-
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {

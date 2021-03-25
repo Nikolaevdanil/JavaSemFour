@@ -1,4 +1,4 @@
-package f6;
+package f6.Builder;
 
 final class Student {
 

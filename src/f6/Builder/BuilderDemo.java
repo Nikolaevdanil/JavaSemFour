@@ -1,4 +1,5 @@
-package f6;
+package f6.Builder;
+
 
 public class BuilderDemo {
     public static void main(String args[])
